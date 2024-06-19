@@ -1,0 +1,12 @@
+Imersão Full Cycle
+
+	Dia 1: Início do projeto: Nestjs
+		
+		Instruções executadas:
+		
+			npm install -g @nestjs/cli
+			nest new nestjs-partners-api
+			
+			npm run start:dev
+
+			npm generate
