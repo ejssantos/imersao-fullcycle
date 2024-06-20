@@ -9,4 +9,14 @@ Imersão Full Cycle
 			
 			npm run start:dev
 
-			npm generate
+			nest generate resource
+
+			docker compose up
+			docker compose exec db bash
+
+			npx prisma init
+			npx prisma migrate <nome do banco de dados>
+				Exemplo: npx prisma migrate dev
+			
+			nest generate module prisma
+			nest generate service prisma
